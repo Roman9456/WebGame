@@ -7780,8 +7780,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": function() { return /* binding */ GameState; }
 /* harmony export */ });
-/* harmony import */ var core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.object.assign.js */ "./node_modules/core-js/modules/es.object.assign.js");
-/* harmony import */ var core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_assign_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.array.concat.js */ "./node_modules/core-js/modules/es.array.concat.js");
+/* harmony import */ var core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_concat_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var core_js_modules_es_symbol_to_primitive_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.symbol.to-primitive.js */ "./node_modules/core-js/modules/es.symbol.to-primitive.js");
 /* harmony import */ var core_js_modules_es_symbol_to_primitive_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_symbol_to_primitive_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var core_js_modules_es_date_to_primitive_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.date.to-primitive.js */ "./node_modules/core-js/modules/es.date.to-primitive.js");
@@ -7794,22 +7794,32 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var core_js_modules_es_number_constructor_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! core-js/modules/es.number.constructor.js */ "./node_modules/core-js/modules/es.number.constructor.js");
 /* harmony import */ var core_js_modules_es_number_constructor_js__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_number_constructor_js__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var core_js_modules_es_symbol_iterator_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! core-js/modules/es.symbol.iterator.js */ "./node_modules/core-js/modules/es.symbol.iterator.js");
-/* harmony import */ var core_js_modules_es_symbol_iterator_js__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_symbol_iterator_js__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var core_js_modules_es_array_iterator_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! core-js/modules/es.array.iterator.js */ "./node_modules/core-js/modules/es.array.iterator.js");
-/* harmony import */ var core_js_modules_es_array_iterator_js__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_iterator_js__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var core_js_modules_es_string_iterator_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! core-js/modules/es.string.iterator.js */ "./node_modules/core-js/modules/es.string.iterator.js");
-/* harmony import */ var core_js_modules_es_string_iterator_js__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_iterator_js__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! core-js/modules/web.dom-collections.iterator.js */ "./node_modules/core-js/modules/web.dom-collections.iterator.js");
-/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _PositionedCharacter__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./PositionedCharacter */ "./src/js/PositionedCharacter.js");
-/* harmony import */ var _Team__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./Team */ "./src/js/Team.js");
-/* harmony import */ var _characters_Bowman__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./characters/Bowman */ "./src/js/characters/Bowman.js");
-/* harmony import */ var _characters_Daemon__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./characters/Daemon */ "./src/js/characters/Daemon.js");
-/* harmony import */ var _characters_Magician__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./characters/Magician */ "./src/js/characters/Magician.js");
-/* harmony import */ var _characters_Swordsman__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./characters/Swordsman */ "./src/js/characters/Swordsman.js");
-/* harmony import */ var _characters_Undead__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./characters/Undead */ "./src/js/characters/Undead.js");
-/* harmony import */ var _characters_Vampire__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./characters/Vampire */ "./src/js/characters/Vampire.js");
+/* harmony import */ var core_js_modules_es_array_slice_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! core-js/modules/es.array.slice.js */ "./node_modules/core-js/modules/es.array.slice.js");
+/* harmony import */ var core_js_modules_es_array_slice_js__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_slice_js__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var core_js_modules_es_regexp_to_string_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! core-js/modules/es.regexp.to-string.js */ "./node_modules/core-js/modules/es.regexp.to-string.js");
+/* harmony import */ var core_js_modules_es_regexp_to_string_js__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_to_string_js__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! core-js/modules/es.function.name.js */ "./node_modules/core-js/modules/es.function.name.js");
+/* harmony import */ var core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_function_name_js__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var core_js_modules_es_array_from_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! core-js/modules/es.array.from.js */ "./node_modules/core-js/modules/es.array.from.js");
+/* harmony import */ var core_js_modules_es_array_from_js__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_from_js__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var core_js_modules_es_string_iterator_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! core-js/modules/es.string.iterator.js */ "./node_modules/core-js/modules/es.string.iterator.js");
+/* harmony import */ var core_js_modules_es_string_iterator_js__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_iterator_js__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! core-js/modules/es.regexp.exec.js */ "./node_modules/core-js/modules/es.regexp.exec.js");
+/* harmony import */ var core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_exec_js__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var core_js_modules_es_symbol_iterator_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! core-js/modules/es.symbol.iterator.js */ "./node_modules/core-js/modules/es.symbol.iterator.js");
+/* harmony import */ var core_js_modules_es_symbol_iterator_js__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_symbol_iterator_js__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var core_js_modules_es_array_iterator_js__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! core-js/modules/es.array.iterator.js */ "./node_modules/core-js/modules/es.array.iterator.js");
+/* harmony import */ var core_js_modules_es_array_iterator_js__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_iterator_js__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! core-js/modules/web.dom-collections.iterator.js */ "./node_modules/core-js/modules/web.dom-collections.iterator.js");
+/* harmony import */ var core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_iterator_js__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var _PositionedCharacter__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./PositionedCharacter */ "./src/js/PositionedCharacter.js");
+/* harmony import */ var _Team__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./Team */ "./src/js/Team.js");
+/* harmony import */ var _characters_Bowman__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./characters/Bowman */ "./src/js/characters/Bowman.js");
+/* harmony import */ var _characters_Daemon__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./characters/Daemon */ "./src/js/characters/Daemon.js");
+/* harmony import */ var _characters_Magician__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./characters/Magician */ "./src/js/characters/Magician.js");
+/* harmony import */ var _characters_Swordsman__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./characters/Swordsman */ "./src/js/characters/Swordsman.js");
+/* harmony import */ var _characters_Undead__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./characters/Undead */ "./src/js/characters/Undead.js");
+/* harmony import */ var _characters_Vampire__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./characters/Vampire */ "./src/js/characters/Vampire.js");
 function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
 
 
@@ -7822,6 +7832,14 @@ function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" =
 
 
 
+
+
+
+
+
+function _createForOfIteratorHelper(o, allowArrayLike) { var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"]; if (!it) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = it.call(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it.return != null) it.return(); } finally { if (didErr) throw err; } } }; }
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor); } }
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
@@ -7847,55 +7865,63 @@ var GameState = /*#__PURE__*/function () {
   }
   _createClass(GameState, null, [{
     key: "from",
-    value: function from(object) {
-      // TODO: create object
-
-      this.level = object.level;
-      this.turn = object.turn;
-      this.positions = [];
-      this.teamPlayer = null;
-      this.teamEnemy = null;
-      this.maxScore = object.maxScore;
-      var players = [];
-      var enemies = [];
-      var playerCharacters = object.positions;
-      for (var i = 0; i < playerCharacters.length; i += 1) {
-        var item = null;
-        if (playerCharacters[i].character.type === 'swordsman') {
-          item = new _characters_Swordsman__WEBPACK_IMPORTED_MODULE_16__["default"](1);
-          Object.assign(item, playerCharacters[i].character);
-          players.push(item);
+    value: function from(data) {
+      var types = {
+        bowman: _characters_Bowman__WEBPACK_IMPORTED_MODULE_18__["default"],
+        daemon: _characters_Daemon__WEBPACK_IMPORTED_MODULE_19__["default"],
+        magician: _characters_Magician__WEBPACK_IMPORTED_MODULE_20__["default"],
+        swordsman: _characters_Swordsman__WEBPACK_IMPORTED_MODULE_21__["default"],
+        undead: _characters_Undead__WEBPACK_IMPORTED_MODULE_22__["default"],
+        vampire: _characters_Vampire__WEBPACK_IMPORTED_MODULE_23__["default"]
+      };
+      var createCharacter = function createCharacter(characterData) {
+        var characterClass = types[characterData.type.toLowerCase()];
+        if (!characterClass) {
+          throw new Error('Неизвестный тип персонажа');
         }
-        if (playerCharacters[i].character.type === 'bowman') {
-          item = new _characters_Bowman__WEBPACK_IMPORTED_MODULE_13__["default"](1);
-          Object.assign(item, playerCharacters[i].character);
-          players.push(item);
+        var character = new characterClass(characterData.level, characterData.attack, characterData.defence, characterData.health);
+        return character;
+      };
+      var userTeam = new _Team__WEBPACK_IMPORTED_MODULE_17__["default"]();
+      var positionsUser = [];
+      var _iterator = _createForOfIteratorHelper(data.positionsUser),
+        _step;
+      try {
+        for (_iterator.s(); !(_step = _iterator.n()).done;) {
+          var positionCharacter = _step.value;
+          var character = createCharacter(positionCharacter.character);
+          positionsUser.push(new _PositionedCharacter__WEBPACK_IMPORTED_MODULE_16__["default"](positionCharacter.index, character));
+          userTeam.add(character);
         }
-        if (playerCharacters[i].character.type === 'magician') {
-          item = new _characters_Magician__WEBPACK_IMPORTED_MODULE_15__["default"](1);
-          Object.assign(item, playerCharacters[i].character);
-          players.push(item);
-        }
-        if (playerCharacters[i].character.type === 'undead') {
-          item = new _characters_Undead__WEBPACK_IMPORTED_MODULE_17__["default"](1);
-          Object.assign(item, playerCharacters[i].character);
-          enemies.push(item);
-        }
-        if (playerCharacters[i].character.type === 'vampire') {
-          item = new _characters_Vampire__WEBPACK_IMPORTED_MODULE_18__["default"](1);
-          Object.assign(item, playerCharacters[i].character);
-          enemies.push(item);
-        }
-        if (playerCharacters[i].character.type === 'daemon') {
-          item = new _characters_Daemon__WEBPACK_IMPORTED_MODULE_14__["default"](1);
-          Object.assign(item, playerCharacters[i].character);
-          enemies.push(item);
-        }
-        this.positions.push(new _PositionedCharacter__WEBPACK_IMPORTED_MODULE_11__["default"](item, playerCharacters[i].position));
+      } catch (err) {
+        _iterator.e(err);
+      } finally {
+        _iterator.f();
       }
-      if (players.length !== 0) this.teamPlayer = new _Team__WEBPACK_IMPORTED_MODULE_12__["default"](players);
-      if (enemies.length !== 0) this.teamEnemy = new _Team__WEBPACK_IMPORTED_MODULE_12__["default"](enemies);
-      return null;
+      var botTeam = new _Team__WEBPACK_IMPORTED_MODULE_17__["default"]();
+      var positionsBot = [];
+      var _iterator2 = _createForOfIteratorHelper(data.positionsBot),
+        _step2;
+      try {
+        for (_iterator2.s(); !(_step2 = _iterator2.n()).done;) {
+          var _positionCharacter = _step2.value;
+          var _character = createCharacter(_positionCharacter.character);
+          positionsBot.push(new _PositionedCharacter__WEBPACK_IMPORTED_MODULE_16__["default"](_positionCharacter.index, _character));
+          botTeam.add(_character);
+        }
+      } catch (err) {
+        _iterator2.e(err);
+      } finally {
+        _iterator2.f();
+      }
+      var gameState = new GameState();
+      gameState.teamPlayer = userTeam;
+      gameState.teamEnemy = botTeam;
+      gameState.positions = [].concat(positionsUser, positionsBot);
+      gameState.level = data.level;
+      gameState.turn = data.turn;
+      gameState.maxScore = data.maxScore;
+      return gameState;
     }
   }]);
   return GameState;
